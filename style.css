@@ -12,6 +12,8 @@ html {
 }
 
 body {
+  font-family: zuume, sans-serif;
+  font-weight: 900;
   min-height: 100vh;
   border: .5rem solid #000;
 }
