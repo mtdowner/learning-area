@@ -12,7 +12,8 @@ html {
 }
 
 body {
-  font-family: zuume, sans-serif;
+  color: #a0f;
+  font-family: hack, sans-serif;
   font-weight: 900;
   min-height: 100vh;
   border: .5rem solid #000;
@@ -24,10 +25,9 @@ header {
 
 h1 {
   font-size: 4rem;
-  color: #fff;
 }
 
-nav, ul, header {
+nav, ul, header, h1 {
   padding: 1rem;
 }
 
@@ -51,15 +51,16 @@ ul > li {
 }
 
 a {
+  color: #a0f;
   text-decoration: none;
 }
 
 li:hover {
-
   background: linear-gradient(#fff, #222);
 }
 
 a:hover {
-    color: #fff;ation-line: underline;
+    color:#fff;
+    text-decoration-line: underline;
   text-decoration-color: white;
 }
