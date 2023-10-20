@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8"/>
-    <title>Media/embedding: Task 2</title>
-    <style>
-      body {
-        background-color: #fff;
-        color: #333;
-        font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
-        padding: 1em;
-        margin: 0;
-      }
 
-      * {
-        box-sizing: border-box;
-      }
+<head>
+  <meta charset="utf-8" />
+  <title>Media/embedding: Task 2</title>
+  <style>
+    body {
+      background-color: #fff;
+      color: #333;
+      font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+      padding: 1em;
+      margin: 0;
+    }
 
-      video {
-        border: 1px solid black;
-      }
-    </style>
-  </head>
+    * {
+      box-sizing: border-box;
+    }
 
-  <body>
-    <h1>Video embed</h1>
+    video {
+      border: 1px solid black;
+    }
+  </style>
+</head>
 
-    <video>
-    </video>
-  </body>
+<body>
+  <h1>Video embed</h1>
+
+  <video controls muted width="320" height="240">
+    <source src="media/video.mp4" type="video/mp4">
+    <source src="media/video.webm" type="video/webm">
+    <track kind="subtitles" src="media/subtitles_en.vtt" srclang="en" label="English" />
+    <p>Yikes! Your browser hates videos. But you don't, right? Check it <a href="media/video.mp4">here</a>.</p>
+
+  </video>
+
+</body>
 
 </html>
