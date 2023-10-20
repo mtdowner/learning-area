@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <title>Media/embedding: Task 1</title>
-    <link rel="stylesheet" href="../styles.css" />
     <style>
+      body {
+        background-color: #fff;
+        color: #333;
+        font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+
       * {
         box-sizing: border-box;
       }
-    </style>
 
-    <style class="editable">
       audio {
         border: 1px solid black;
       }
@@ -18,31 +23,11 @@
   </head>
 
   <body>
-    <section class="preview">
+    <h1>Basic audio embed</h1>
 
-      <h1>Basic audio embed</h1>
+    <audio>
 
-      <audio>
-      </audio>
-
-    </section>
-
-    <textarea class="playable playable-css" style="height: 130px;">
-audio {
-  border: 1px solid black;
-}
-    </textarea>
-
-    <textarea class="playable playable-html" style="height: 220px;">
-<h1>Basic audio embed</h1>
-
-<audio>
-</audio>
-    </textarea>
-
-    <div class="playable-buttons">
-      <input id="reset" type="button" value="Reset" />
-    </div>
+    </audio>
   </body>
-  <script src="../playable.js"></script>
+
 </html>
