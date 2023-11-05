@@ -1,54 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <title>Basic HTML text: Task 3</title>
-    <link rel="stylesheet" href="../styles.css" />
     <style>
-      * {
-        box-sizing: border-box;
+      body {
+        background-color: #fff;
+        color: #333;
+        font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;
       }
-    </style>
 
-    <style class="editable">
-      h1, strong {
+      h1 {
+        font-size: 2rem;
+        margin: 0;
+      }
+
+      h2 {
+        font-size: 1.6rem;
+        margin: 0;
+      }
+
+      h1, h2, strong {
         color: purple;
       }
 
-      em {
+      p, em {
         color: gray;
+        margin: 0.5em 0;
+      }
+
+      * {
+        box-sizing: border-box;
       }
     </style>
   </head>
 
   <body>
-    <section class="preview">
+<main>
+  <h1>Emphasis and importance</h1>
 
-      <h1>Emphasis and importance</h1>
-
-      <p>There are two things I care about — music and friends. Someday I might be able to get my friends interested in each other, and my music!</p>
-
-    </section>
-
-    <textarea class="playable playable-css" style="height: 130px;">
-h1, strong {
-  color: purple;
-}
-
-em {
-  color: gray;
-}
-    </textarea>
-
-    <textarea class="playable playable-html" style="height: 220px;">
-      <h1>Emphasis and importance</h1>
-
-      <p>There are two things I care about — music and friends. Someday I might be able to get my friends interested in each other, and my music!</p>
-    </textarea>
-
-    <div class="playable-buttons">
-      <input id="reset" type="button" value="Reset" />
-    </div>
+  <p>There are <strong>two</strong> things I care about — music and friends. Someday I <em>might</em> be able to get my friends interested in each other, and my music!</p>
+</main>
   </body>
-  <script src="../playable.js"></script>
+
 </html>

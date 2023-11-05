@@ -6,7 +6,7 @@ The aim of the tasks is to demonstrate an understanding of the HTML features cov
 
 This task covers understanding of HTML description lists. Ideally the answer should look something like this:
 
-```
+```html
 <h1>Advanced HTML Animals</h1>
 
 <dl>
@@ -25,7 +25,7 @@ Our second task is designed to test knowledge of a number of different slightly-
 
 The finished code should look like this:
 
-```
+```html
 <h1>Advanced text semantics</h1>
 
 <p>Let's start with a quote:</p>

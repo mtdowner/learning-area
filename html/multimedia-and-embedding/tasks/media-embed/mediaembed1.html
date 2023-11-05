@@ -1,48 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <title>Media/embedding: Task 1</title>
-    <link rel="stylesheet" href="../styles.css" />
     <style>
+      body {
+        background-color: #fff;
+        color: #333;
+        font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+
       * {
         box-sizing: border-box;
       }
-    </style>
 
-    <style class="editable">
       audio {
-        border: 1px solid black;
+        width: 100%;
+        height: 300px;
       }
     </style>
   </head>
 
   <body>
-    <section class="preview">
+    <h1>Basic audio embed</h1>
 
-      <h1>Basic audio embed</h1>
-
-      <audio>
-      </audio>
-
-    </section>
-
-    <textarea class="playable playable-css" style="height: 130px;">
-audio {
-  border: 1px solid black;
-}
-    </textarea>
-
-    <textarea class="playable playable-html" style="height: 220px;">
-<h1>Basic audio embed</h1>
-
-<audio>
+<audio controls>
+  <source src="media/audio.mp3" type="audio/mp3">
+  <p>Weep we must; your browser doesn't like listening to this audio file. Lucky enough, you can check it out <a
+      href="media/audio.mp3">here</a>.</p>
 </audio>
-    </textarea>
 
-    <div class="playable-buttons">
-      <input id="reset" type="button" value="Reset" />
-    </div>
   </body>
-  <script src="../playable.js"></script>
+
 </html>
